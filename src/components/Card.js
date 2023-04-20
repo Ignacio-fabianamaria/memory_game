@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const Card = ({ id, cardValue }) => {
+
+function Card({ emoji, isFlipped, onClick }) {
   return (
-    <div className="card" data-id={id}>
-      <div className="card-value">{cardValue}</div>
+    <div
+      className={`card ${isFlipped ? "" : "flipped"}`}
+      onClick={() => onClick()}
+    >
+      <div className="card-front"></div>
+      <div className="card-back">{emoji}</div>
     </div>
   );
-};
+}
 
 export default Card;
