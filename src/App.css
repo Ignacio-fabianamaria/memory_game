@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(236, 222, 204);
+  background-color: rgb(154, 222, 242);
 }
 
 .app {
@@ -27,7 +27,7 @@ body {
   margin: 10px;
   border-radius: 10px;
   background-image: url('../src/imagens/star.gif');
-  background-color: #bb7bd9;
+  background-color: #c98fe4;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
   transform-style: preserve-3d;
