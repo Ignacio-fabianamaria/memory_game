@@ -1,5 +1,8 @@
 body {
-  background-color: rgb(154, 222, 242);
+  
+  background: linear-gradient(to bottom, #0077b5, #6aa0b8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .app {
