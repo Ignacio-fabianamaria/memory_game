@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 body {
-  
+  font-family: 'Luckiest Guy', cursive;
   background: linear-gradient(to bottom, #0077b5, #6aa0b8);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,6 +18,35 @@ body {
 .options {
   margin-bottom: 20px;
 }
+
+h1 {
+  color: yellow;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  font-size: 3.5em;
+}
+
+
+label {
+  color: yellow;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  margin-right: 10px;
+
+}
+
+select {
+  font-weight: 900;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #f2f2f2;
+  color: #0077b5;
+}
+
 
 .board {
   display: flex;
