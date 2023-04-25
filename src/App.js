@@ -42,7 +42,7 @@ function App() {
       <h1>Jogo da Memória</h1>
       <div className="options">
       <button className="buttons" onClick={() => window.location.reload()}>↻</button>
-      <button className="buttons" onClick={toggleMusica}>{inLoop ? "||" : "🎶"}</button>
+      <button className="buttons" onClick={toggleMusica}>{inLoop ? "||" : "♪"}</button>
         <select id="size" value={size} onChange={handleSizeChange}>
           <option value="12">6 pares</option>
           <option value="16">8 pares</option>
