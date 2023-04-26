@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   const [size, setSize] = useState(12);
   const [song] = useState(new Audio("/Whistle_Cartoon.mp3"));
-  const [inLoop, setInLoop] = useState(true);
+  const [inLoop, setInLoop] = useState(false);
 
   const handleSizeChange = (event) => {
     setSize(parseInt(event.target.value));
